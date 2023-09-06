@@ -1,9 +1,9 @@
 # KNOWN: Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction
   **Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction** <br />
-  [Yufei Zhang](zhangy76@rpi.edu), Hanjing Wang, Jeffrey O. Kephart, Qiang Ji <br /> 
+  [Yufei Zhang](https://zhangy76.github.io/), Hanjing Wang, Jeffrey O. Kephart, Qiang Ji <br /> 
   ICCV2023, [arXiv](https://aps.arxiv.org/abs/2308.00799) <br />
 
-This repository includes the Pytorch demo code and trained models for the paper. 
+This repository includes the Pytorch demo code and trained models for the above paper. 
 
 ## Installation
 ```bash
@@ -32,7 +32,7 @@ python demo_live_video.py --video_path 'empty for camera or path to a testing vi
 ```
 
 ## Citation
-If you find our work useful for your project, please consider citing the paper:
+If you find our work useful, please consider citing the paper:
 ```bibtex
 @article{zhang2023body,
   title={Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction},
@@ -41,3 +41,6 @@ If you find our work useful for your project, please consider citing the paper:
   year={2023}
 }
 ```
+
+## References
+Part of our code is developed based on [SPIN](https://github.com/nkolot/SPIN). The SMPL model data is downloaded from [SMPL-X model](https://github.com/vchoutas/smplx). We thank them for generously sharing their outstanding work.
