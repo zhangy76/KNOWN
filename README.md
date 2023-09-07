@@ -1,4 +1,4 @@
-# KNOWN: Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction
+# <ins>KNOWN</ins>: Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction
   **Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction** <br />
   [Yufei Zhang](https://zhangy76.github.io/), Hanjing Wang, Jeffrey O. Kephart, Qiang Ji <br /> 
   ICCV2023, [arXiv](https://aps.arxiv.org/abs/2308.00799) <br />
@@ -33,7 +33,7 @@ python demo_live_video.py --video_path 'empty to open a camera or path to a test
 ```
 
 Examples KNOWN's output are 
-![](example.png width="300")
+![](example.png){:width="300px"}
 
 ## Citation
 If you find our work useful, please consider citing the paper:
