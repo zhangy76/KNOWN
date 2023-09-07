@@ -2,6 +2,7 @@
   **Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction** <br />
   [Yufei Zhang](https://zhangy76.github.io/), Hanjing Wang, Jeffrey O. Kephart, Qiang Ji <br /> 
   ICCV2023, [arXiv](https://aps.arxiv.org/abs/2308.00799) <br />
+![](method.png)
 
 This repository includes the Pytorch demo code and trained models for the above paper. 
 
@@ -25,11 +26,14 @@ Please download the trained model and required data from [data](https://www.drop
 ```
 
 ## Demo
-We provide the demo to perform 3D reconstruction and visualize the 3D vertex prediction uncertainty (epistemic uncertainty).
+We provide the demo to generate 3D reconstruction and visualize the 3D vertex prediction uncertainty (epistemic uncertainty).
 ```bash
 python demo_img.py --img_path 'path to a testing image'
 python demo_live_video.py --video_path 'empty for camera or path to a testing video'
 ```
+
+Example output of KNOWN are 
+![](example.png)
 
 ## Citation
 If you find our work useful, please consider citing the paper:
