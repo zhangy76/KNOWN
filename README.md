@@ -33,7 +33,7 @@ python demo_live_video.py --video_path 'empty to open a camera or path to a test
 ```
 
 Examples KNOWN's output are 
-<img src="example.png" width="300">
+<img src="example.png" width="600">
 
 ## Citation
 If you find our work useful, please consider citing the paper:
