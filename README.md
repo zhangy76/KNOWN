@@ -32,7 +32,7 @@ python demo_img.py --img_path 'path to a testing image'
 python demo_live_video.py --video_path 'empty to open a camera or path to a testing video'
 ```
 
-Examples KNOWN's output are 
+Examples KNOWN's output are <br />
 <img src="example.png" width="600">
 
 ## Citation
