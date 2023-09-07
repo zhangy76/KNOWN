@@ -26,14 +26,14 @@ Please download the trained model and required data from [data](https://www.drop
 ```
 
 ## Demo
-We provide the demo to generate 3D reconstruction and visualize the 3D vertex prediction uncertainty (epistemic uncertainty).
+We provide the demo code to generate 3D reconstruction and visualize the 3D vertex prediction uncertainty (epistemic uncertainty).
 ```bash
 python demo_img.py --img_path 'path to a testing image'
-python demo_live_video.py --video_path 'empty for camera or path to a testing video'
+python demo_live_video.py --video_path 'empty to open a camera or path to a testing video'
 ```
 
-Example output of KNOWN are 
-![](example.png)
+Examples KNOWN's output are 
+![](example.png width="300")
 
 ## Citation
 If you find our work useful, please consider citing the paper:
@@ -45,6 +45,8 @@ If you find our work useful, please consider citing the paper:
   year={2023}
 }
 ```
+
+If you have questions and encouter any issues when running the code, feel free to open an issue or directly contact me via: zhangy76@rpi.edu.
 
 ## References
 Part of our code is developed based on [SPIN](https://github.com/nkolot/SPIN). The SMPL model data is downloaded from [SMPL-X model](https://github.com/vchoutas/smplx). We thank them for generously sharing their outstanding work.
