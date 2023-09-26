@@ -1,4 +1,4 @@
-# <ins>KNOWN</ins>: Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction
+# KNOWN: Body <ins>Know</ins>ledge and U<ins>n</ins>certainty Modeling for Monocular 3D Human Body Reconstruction
   **Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction** <br />
   [Yufei Zhang](https://zhangy76.github.io/), Hanjing Wang, Jeffrey O. Kephart, Qiang Ji <br /> 
   ICCV2023, [arXiv](https://aps.arxiv.org/abs/2308.00799) <br />
@@ -38,15 +38,17 @@ Examples KNOWN's output are <br />
 ## Citation
 If you find our work useful, please consider citing the paper:
 ```bibtex
-@article{zhang2023body,
-  title={Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction},
-  author={Zhang, Yufei and Wang, Hanjing and Kephart, Jeffrey O and Ji, Qiang},
-  journal={arXiv preprint arXiv:2308.00799},
-  year={2023}
+@InProceedings{Zhang_2023_ICCV,
+    author    = {Zhang, Yufei and Wang, Hanjing and Kephart, Jeffrey O. and Ji, Qiang},
+    title     = {Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {9020-9032}
 }
 ```
 
-If you have questions and encouter any issues when running the code, feel free to open an issue or directly contact me via: zhangy76@rpi.edu.
+If you have questions or encouter any issues when running the code, feel free to open an issue or directly contact me via: zhangy76@rpi.edu.
 
 ## References
 Part of our code is developed based on [SPIN](https://github.com/nkolot/SPIN). The SMPL model data is downloaded from [SMPL-X model](https://github.com/vchoutas/smplx). We thank them for generously sharing their outstanding work.
