@@ -1,4 +1,4 @@
-# KNOWN: Body <ins>Know</ins>ledge and U<ins>n</ins>certainty Modeling for Monocular 3D Human Body Reconstruction
+# <ins>KNOWN</ins>: Body <ins>Know</ins>ledge and U<ins>n</ins>certainty Modeling for Monocular 3D Human Body Reconstruction
   **Body Knowledge and Uncertainty Modeling for Monocular 3D Human Body Reconstruction** <br />
   [Yufei Zhang](https://zhangy76.github.io/), Hanjing Wang, Jeffrey O. Kephart, Qiang Ji <br /> 
   ICCV2023, [arXiv](https://aps.arxiv.org/abs/2308.00799) <br />
