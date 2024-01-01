@@ -26,13 +26,13 @@ Please download the trained model and required data from [data](https://www.drop
 ```
 
 ## Demo
-KNOWN is the first 3D human body reconstruction model that can quantify both epistemic and aleatoric uncertainty (running in near real-time). We provide the demo code to generate 3D reconstruction and visualize the 3D vertex prediction uncertainty (epistemic uncertainty).
+KNOWN is the first 3D human body reconstruction model that can quantify both epistemic and aleatoric uncertainty (running in near real-time). We here provide the demo code to generate 3D reconstruction and visualize the 3D vertex prediction uncertainty (epistemic uncertainty).
 ```bash
 python demo_img.py --img_path 'path to a testing image'
 python demo_live_video.py --video_path 'empty to open a live camera or path to a testing video'
 ```
 
-Examples KNOWN's output are <br />
+Examples of KNOWN's output are <br />
 <img src="example.png" width="600">
 
 ## Citation
