@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Model and Data Download
-Please download the trained model and required data from [data](https://www.dropbox.com/scl/fo/12m5bz2vi0sa6exap3cmu/h?rlkey=v79f2jdfc9qgfjeywe7i7bztn&dl=0) (due to license permission, please download "processed_basicModel_neutral_lbs_10_207_0_v1.0.0.pkl" from the [SMPL](https://github.com/vchoutas/smplx) website) and store them under the current directory as 
+Please download the trained model and required data from [data](https://www.dropbox.com/scl/fo/12m5bz2vi0sa6exap3cmu/h?rlkey=v79f2jdfc9qgfjeywe7i7bztn&dl=0) (due to license restrictions, please download "processed_basicModel_neutral_lbs_10_207_0_v1.0.0.pkl" from the [SMPL](https://github.com/vchoutas/smplx) website) and store them under the current directory as 
 ```
 ./data
 ├── cam_spin.npy
